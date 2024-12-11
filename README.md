@@ -40,9 +40,9 @@ A feature-rich Flutter application built using the latest technologies, designed
 
 |                               |                               |                               |
 |-------------------------------|-------------------------------|-------------------------------|
-| ![homePage.jpg](screenshots/homePage.jpg) | ![homePageDarkMode.jpg](screenshots/homePageDarkMode.jpg) | ![newsPage.jpg](screenshots/newsPage.jpg) |
-| ![productsDetailsPage.jpg](screenshots/productsDetailsPage.jpg) | ![storePage.jpg](screenshots/storePage.jpg) | ![profilePage.jpg](screenshots/profilePage.jpg) |
-| ![loginPage.jpg](screenshots/loginPage.jpg) |
+| ![[homePage.jpg](screenshots/homePage.jpg)](https://github.com/OracleMatrix/practice_getx/blob/master/screenshots/homePage.png) | ![[homePageDarkMode.jpg](screenshots/homePageDarkMode.jpg)](https://github.com/OracleMatrix/practice_getx/blob/master/screenshots/homePageDarkMode.png) | ![[newsPage.jpg](screenshots/newsPage.jpg)](https://github.com/OracleMatrix/practice_getx/blob/master/screenshots/loginPage.png) |
+| ![[productsDetailsPage.jpg](screenshots/productsDetailsPage.jpg)](https://github.com/OracleMatrix/practice_getx/blob/master/screenshots/newsPage.png) | ![[storePage.jpg](screenshots/storePage.jpg)](https://github.com/OracleMatrix/practice_getx/blob/master/screenshots/productsDetailsPage.png) | ![[profilePage.jpg](screenshots/profilePage.jpg)](https://github.com/OracleMatrix/practice_getx/blob/master/screenshots/profilePage.png) |
+| ![[loginPage.jpg](screenshots/loginPage.jpg)](https://github.com/OracleMatrix/practice_getx/blob/master/screenshots/storePage.png) |
 ---
 
 ## 📂 Project Structure
