@@ -39,6 +39,7 @@ dependencies:
   get:
   get_storage:
   cached_network_image:
+  test:
   flutter_launcher_icons: ^0.14.2
 
 

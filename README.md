@@ -21,6 +21,8 @@ A feature-rich Flutter application built using the latest technologies, designed
 - **UI/UX Enhancements**:
   - Image caching with `cached_network_image`.
   - Smooth navigation and transitions.
+- **Unit Testing**:
+  - Test api calls `with "test" package`.
 
 ---
 
