@@ -57,7 +57,7 @@ void main() async {
           final newsApi = NewsApiService();
           final result = await newsApi.getAllNews();
           expect(result!.articles![1].title, isA<String>());
-          expect(result!.articles![1].title, isNotEmpty);
+          expect(result.articles![1].title, isNotEmpty);
         },
       );
     },
