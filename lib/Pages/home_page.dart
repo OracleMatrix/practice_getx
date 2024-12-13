@@ -34,9 +34,9 @@ class HomePage extends StatelessWidget {
             onPressed: () {
               final token = box.read('access_token') ?? '';
               if (token.isNotEmpty) {
-                Get.to(const StorePage());
+                Get.to(() => const StorePage());
               } else {
-                Get.to(const AuthPage());
+                Get.to(() => const AuthPage());
               }
             },
             icon: const Icon(Icons.store),
@@ -59,7 +59,7 @@ class HomePage extends StatelessWidget {
             return InkWell(
               borderRadius: BorderRadius.circular(15),
               onTap: () => Get.to(
-                ProductsDetailPage(
+                () => ProductsDetailPage(
                   image: product.image,
                   description: product.description,
                   rate: product.rating.rate.toString(),
