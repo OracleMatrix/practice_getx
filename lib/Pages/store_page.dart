@@ -11,7 +11,7 @@ class StorePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final StoreProductsController c = Get.put(StoreProductsController());
+    final StoreProductsController c = Get.find();
     WidgetsBinding.instance.addPostFrameCallback(
       (_) {
         c.fetchAllProducts();

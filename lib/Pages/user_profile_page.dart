@@ -12,7 +12,7 @@ class UserProfilePage extends StatefulWidget {
 }
 
 class _UserProfilePageState extends State<UserProfilePage> {
-  final AuthController c = Get.put(AuthController());
+  final AuthController c = Get.find();
   final box = GetStorage();
 
   @override

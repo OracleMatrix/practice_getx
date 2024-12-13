@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final box = GetStorage();
-    final ProductsController productsController = Get.put(ProductsController());
+    final ProductsController productsController = Get.find();
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,

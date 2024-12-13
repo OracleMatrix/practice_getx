@@ -8,7 +8,7 @@ class NewsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final news = Get.put(NewsController());
+    final NewsController news = Get.find();
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
@@ -63,7 +63,8 @@ class NewsPage extends StatelessWidget {
                         children: [
                           const Icon(Icons.person),
                           Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                            padding:
+                                const EdgeInsets.symmetric(horizontal: 8.0),
                             child: Text(data.author ?? 'unknown'),
                           ),
                         ],
