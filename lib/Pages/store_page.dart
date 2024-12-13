@@ -24,7 +24,7 @@ class StorePage extends StatelessWidget {
           centerTitle: true,
           actions: [
             IconButton(
-              onPressed: () => Get.to(const UserProfilePage()),
+              onPressed: () => Get.to(() => const UserProfilePage()),
               icon: const Icon(Icons.person),
             ),
             IconButton(
