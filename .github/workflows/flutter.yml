@@ -3,7 +3,7 @@ name: Practice GetX CI/CD
 on:
     push:
         branches: 
-            - main
+            - '**'
 
 jobs:
     build:
