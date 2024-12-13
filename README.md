@@ -23,6 +23,8 @@ A feature-rich Flutter application built using the latest technologies, designed
   - Smooth navigation and transitions.
 - **Unit Testing**:
   - Test api calls `with "test" package`.
+- **CI/CD**:
+  - CI/CD support with `Github Actions`.
 
 ---
 
